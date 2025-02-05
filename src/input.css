@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply py-2 px-7 rounded-md text-center text-lg text-secondary-clr border border-primary-clr hover:bg-amber-400 duration-200
+    }
+    .primary{
+        @apply bg-primary-clr
+    }
+    .light{
+        @apply bg-transparent
+    }
+    .heading{
+        @apply text-xl md:text-3xl text-secondary-clr mb-7 md:mb-8 lg:mb-10;
+    }
+}
